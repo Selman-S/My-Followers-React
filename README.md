@@ -40,10 +40,10 @@
 
 In the project directory, you can run:
 
-###npm i axios or yarn add axios  //with axios for fetch data
-###npm i react-router-dom or yarn add react-router-dom  //so that we can use the router structure
-###npm i react-bootstrap or yarn add react-bootstrap  // Being able to use react-boostrapi in style
-###npm i styled-components or yarn add styled-components
+### `npm i axios` or `yarn add axios`  //with axios for fetch data
+### `npm i react-router-dom` or `yarn add react-router-dom`  //so that we can use the router structure
+### `npm i react-bootstrap` or `yarn add react-bootstrap`  // Being able to use react-boostrapi in style
+### `npm i styled-components` or `yarn add styled-components`
 ### `npm start`
 
 
