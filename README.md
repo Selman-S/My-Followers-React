@@ -1,81 +1,51 @@
-# Axios-Router Project
 
-###Project Tree
-![project](projecttree.jpg)
 
-### Kullanılan Paketler
-```
-axios,
-react-router-dom,
-react-bootsrap //index e link veriyoruz
-styled-components
-Yükleme Komutları
-npm i axios or yarn add axios//axios ile veri çekeilmek için
-npm i react-router-dom or yarn add react-router-dom//router yapısını kullanabilmemiz için
-npm i react-bootstrap or yarn add react-bootstrap// style de react-boostrapi kullanabilmek
-için
-npm i styled-components or yarn add styled-components
-```
-### Projede Kullanılacak olan Api
-[Github Api](https://docs.github.com/en/rest/users)
-Buradan biz followers kısmını alacağız .
-[GithubAPiFollowers](https://api.github.com/users/anthonyharold67/followers?per_page=100)
+<h1>Hi I’m Selman 👋. Welcome to my  Github User Followers Project With React </h1>
 
-Api nin verdği farklı veriler de var isteyen inceleyip proje oluşturabilir ona göre.
+<br>
 
-### React Router
-Routing Nedir ? 
-```
-Yönlendirme, kullanıcıya farklı sayfalar gösterme kapasitesidir. 
-Bu, kullanıcının bir URL girerek veya bir öğeye tıklayarak uygulamanın farklı 
-bölümleri arasında hareket edebileceği anlamına gelir.
-```
+<p>In this project, I designed a multi-page and email-verified website that displays my followers in my github user account with card components.</p>
 
-Neden react router kullanılıyor ?
+<br>
 
-React hepimizn bildiği gibi single page bir yapı. sayfalar arası gezinebilmek için router yapısını kullanırız.
+<h2>Live Link of the Project</h2>
 
-Single Page Nedir?
-```
-Single page application yani kısa adıyla SPA, tek HTML sayfası yükleyen bir uygulamadır 
-ve uygulamanın çalışması için gerekli tüm dosyaları (JavaScript, CSS vb) içerir. 
-Sayfa veya sonraki sayfalarla olan herhangi bir etkileşim için servera 
-gidip gelmesi gerektirmez; bu da sayfanın yeniden yüklenmediği anlamına gelir.
-Reactte SPA oluşturabilmenize rağmen, bu bir zorunluluk değildir. 
-React, hali hazırda çalışan bir sitenin küçük bölümlerini geliştirmek için 
-de kullanılabilir. React’te yazılmış kod, diğer diller ile de kullanılabilir. 
-Facebook’un sitesi buna en iyi örnektir
-```
+<br>
 
-Yani normal html projelerinde bizim örneğin home.html,about.html,profile.html yapılarımız var.Biz napıyoruz bunları biribirne `<a>` tagi ile bağlıyoruz. Aslında 3sayfada tek projeye ait ama html yapısından ötürü biz home.html den about.html e gitmek istediğimizde farklı bir sayfaya gidiyoruz.
-React ta ise tek bir sayfa içinde sayfa olarak oluşturduğumuz componentler arasında geziniyoruz
+[Clik Me](https://selman-my-followers-in-github.netlify.app/home)
 
-### React Router a özgü kavramlar
-**BrowserRouter**: Tanımlanan Yerlere Sayfaların Render Edileceğini Bildiren component. En dış sarmalayıcıdır.
+<br>
 
-**Routes:** Konum her değiştiğinde, Routes en iyi eşleşmeyi bulmak için childları olan tüm alt Route öğelerine bakar ve kullanıcı arabiriminin bu dalını oluşturur.
+<h2>Libraries and Technologies I use</h2>
+ 
+ * React 
+ * useState
+ * useEffect
+ * axios
+ * async await
+ * Github User API
+ * react-router-dom
+ * react-bootsrap
+ * styled-components
 
-**Route:**  Url pathinde gelene göre hangi sayfanın(yani hangi componentin) render edileceğini belirten component. Ve eğer birden fazla Route varsa bunları Routes sarmalında tanımlamamız gerekir. Yoksa şu şekilde hata alırız:
-```
-Bir <Route>, yalnızca <Routes> öğesinin alt öğesi olarak kullanılır, hiçbir zaman doğrudan işlenmez. Lütfen <Route>'unuzu bir <Routes> ile sarın.
-```
-**NavLink:**  Geçerli URL ile eşleştiğinde, render edilmiş elemente css ekleyecek bir `<Link>` sürümüdür. Css te a tagi olarak verebiliyoruz.*`Navlink` kullanmak için `react-router-dom`dan import etmemiz gerekiyor*
+ 
 
-Kısaca Link,NavLink ve a href farkında bahsedelim
-```
-Single page application uygulamarında temel mantık aynı sayfada sayfa yenilenmeden istenilen komponentin sayfaya çağırılmasıdır.
 
-Burada bazı react projelerinde dikkat çeken bir nokta projenin navigasyonunda gezerken sayfanın her linke 
-tıklandığında sayfanın kendini yenilemesi (refresh) dir. 
-Bunun nedeni ise linke tıklandığında çağırılan komponentin
+ 
+ <br>
+ 
+<h2>How to install</h2>
 
-<a href="/componentAdi"></a>
-şeklinde çağırılmış olmasıdır.
+<br>
 
-Eğer a etiketi yerine react-dom elementi olan Link etiketi kullanılırsa
+In the project directory, you can run:
 
-<Link to="/componentAdi"></Link>
-sayfa yenileme problemi ortadan kalkacaktır.
+###npm i axios or yarn add axios  //with axios for fetch data
+###npm i react-router-dom or yarn add react-router-dom  //so that we can use the router structure
+###npm i react-bootstrap or yarn add react-bootstrap  // Being able to use react-boostrapi in style
+###npm i styled-components or yarn add styled-components
+### `npm start`
 
-Bu kullanım sadece React özelinde değil diğer SPA uygulamarı içinde geçerlidir.
-```
+
+<h2>How does my project look</h2>
+
