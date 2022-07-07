@@ -12,7 +12,7 @@
 
 <br>
 
-[Clik Me](https://selman-my-followers-in-github.netlify.app/home)
+[Clik Me](https://selman-my-followers-in-github.netlify.app/)
 
 <br>
 
