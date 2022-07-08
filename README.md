@@ -12,7 +12,7 @@
 
 <br>
 
-[Clik Me](https://selman-my-followers-in-github.netlify.app/)
+[Clik Me](https://selman-followers-github-react.netlify.app/)
 
 <br>
 
@@ -49,3 +49,4 @@ In the project directory, you can run:
 
 <h2>How does my project look</h2>
 
+![followers-min](https://user-images.githubusercontent.com/97898216/178066791-f30551b2-effa-4103-a7a2-6263817a0cd0.gif)
